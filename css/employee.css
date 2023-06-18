@@ -1,0 +1,76 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: bisque;
+    width: 100rem;
+    height: fit-content;
+
+}
+.header{
+  background-color: black;
+  width: 100rem;
+}
+.randomEmp{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: aqua;
+    width: 100rem;
+}
+.emp-form input,
+.emp-form text {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  
+}
+.emp-form input,
+.emp-form submitBtn submit {
+  width: 90%;
+padding: 8px 20px;
+background-color: aliceblue;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.employeeList{
+  width: fit-content;
+    height: fit-content;
+    margin: 10px,20px,30px,40px;
+    padding: 10px;
+}
+.empDetails{
+ width: 90%; 
+  max-width: 800px; 
+  margin: 10px; 
+  padding: 20px;
+  height: max-content;
+  width: max-content; 
+  background-color: azure;
+  border-radius: 10px;
+
+}
